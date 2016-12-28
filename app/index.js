@@ -3,14 +3,11 @@ var ReactDOM = require('react-dom');
 var routes = require('./config/routes');
 var Raven = require('raven-js')
 
-// Get your keys by signing up for Sentry at sentry.reactjsprogram.com
-var sentryKey = 'YOUR_SENTRY_KEY'
-var sentryApp = 'YOUR_SENTRY_AP_ID'
-var sentryURL = 'https://' + sentryKey + '@app.getsentry.com/' + sentryApp
+var sentryURL = 'https://abd0806e51124044858d7e6b44ca17da@sentry.io/125101'
 
 var _APP_INFO = {
   name: 'Github Battle',
-  branch: 'video4',
+  branch: 'master',
   version: '1.0'
 }
 
